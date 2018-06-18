@@ -1,0 +1,22 @@
+{
+  "name": "dremio-cluster-cloner",
+  "version": "1.0.0",
+  "description": "Clone Dremio clusters.",
+  "author": {
+    "name": "Christy Haragan",
+    "email": "christy.haragan.github@gmail.com",
+    "url": "https://github.com/christyharagan"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dremio-node-api": "1.0.0",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.7",
+    "@types/yargs": "^11.0.0"
+  },
+  "bin": {
+    "dremclone": "out/cmdLine.js"
+  }
+}
